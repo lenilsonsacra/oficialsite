@@ -1,0 +1,260 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.949);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 70px;
+}
+
+.font-texto{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.937);
+    margin-top: -10px;
+}
+
+.logo-imagem img{
+    height: 50px;
+    border-radius: 50px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 30px;
+    color:hwb(0 100% 0%);
+    font-size: 15px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:hwb(0 100% 0%);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    background-color: rgba(0, 146, 191, 0.638)
+}
+
+nav {
+    border-radius: 10px;
+    text-align: left;
+    font-size: 24px; 
+    margin-top: 5%;
+}
+
+.como-funciona h1{
+    text-align: center;
+    padding-top: 3%;
+}
+.como-funciona h1.h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.como-funciona h1.h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.como-funciona p{
+    margin: 10px;
+    text-indent: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.lista-imagem {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ .lista-imagem li{
+    display: flex;
+    align-items: center;
+    text-align: center;  
+ }
+
+ .lista-imagem img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    position:relative;
+    box-shadow: 1px 1px 11px black;
+}
+
+ .imagem1{
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center; 
+    margin-top: 40px;
+ }
+
+ .imagem2{
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center; 
+    margin-top: 40px;
+ }
+
+ a:hover.efeito1 {
+    transform: scale(1.10);
+    transition: 0.8s;
+ }
+ 
+ a:hover.efeito2 {
+    transform: scale(1.10);
+    transition: 0.8s;
+ }
+
+ a:hover.efeito3 {
+    transform: scale(1.10);
+    transition: 0.8s;
+ }
+
+ a:hover.efeito4 {
+    transform: scale(1.10);
+    transition: 0.8s;
+ }
+ 
+ a:hover.efeito5 {
+    transform: scale(1.10);
+    transition: 0.8s;
+ }
+
+.rodape{
+    margin-top: 50px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(0, 0, 0, 0.949);
+    color: #ffffff;
+
+}
+
+.botao{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botao img{
+    height: 50px;
+}
+.botao button:hover{
+    background-color: rgba(191, 0, 0, 0.638)
+}
+
+@media (max-width: 1050px){
+
+    body {
+        height: 100vh;
+        width: 100%;
+        margin: 0%;
+    }
+
+    header{
+        height: 70px;
+    }
+    
+    .logo-imagem img{
+        height: 25px;
+        margin-top: 7px;
+    }
+    
+    .logo-texto{
+        margin-left: 10px;
+        font-size: 8px;
+    }
+    .menu li a{
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+    nav{
+       font-size: 18px; 
+       margin-top: 10px;
+    }
+    .como-funciona h1{
+        text-align: center;
+        padding: 10px;
+    }
+    .como-funciona h1.h1{
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+    
+    .como-funciona h1.h2{
+        margin-top: 10%;
+        margin-bottom: 0%;
+    }
+
+    .como-funciona p{
+        margin: 100px;
+        text-indent: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 15px ;
+    }
+
+    .lista-imagem {
+        margin-top: 7px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .lista-imagem img{
+        height: 60px;
+        width: 60px;
+        border-radius: 5px;
+    }
+
+    .imagem1{
+        align-items: start;
+        justify-content: space-evenly;
+        text-align: center; 
+        margin-top: 0%;
+        margin-bottom: 10%;
+     }
+
+     .imagem2{
+        align-items: start;
+        justify-content: space-evenly;
+        text-align: center; 
+        margin-top: 0%;
+     }
+     .rodape{
+        margin-top: 25px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+}
